@@ -1,16 +1,33 @@
-# sic_management_app
 
-A new Flutter project.
+# Flutter Boilerplate By KyeX
+This is a init flutter project template that we are using in Wayha Technology company
+For state management : Provider
 
-## Getting Started
+![Logo](https://wayha.la/wp-content/uploads/sites/13/2020/10/cropped-color_transparentmdpi-e1602759592408.png)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+What you have to do
+
+```bash
+  1. Create a .env file in your project.
+  2. Add the following to the .env file:
+
+      HASURA_ENDPOINT='YOUR_END_POINT',
+      SRECRETE = 'YOUR_SECRETE_KEY' 
+
+  3. Create a database in your Hasura project with a table named user containing the columns id, name, surname, tel, created_at, and updated_at.
+  4. You're all set!
+```
+    
+
+## Authors
+
+- [@SouksavathPMS](https://github.com/SouksavathPMS)
+
+
+![App Screenshot](https://media.tenor.com/kiEbqAowVo0AAAAM/credit-card-smacking-credit-card-on-table.gif)
+
